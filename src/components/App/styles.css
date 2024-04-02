@@ -6,14 +6,14 @@ input[type="text"] {
   color: white;
   background-color: #454545;
 
-  /* &:focus {
+  &:focus {
     outline: none;
   }
 
   &:disabled {
     background-color: #333;
     border: 1px solid #454545;
-  } */
+  }
 }
 
 .layout {
@@ -29,7 +29,7 @@ input[type="text"] {
 }
 
 .board {
-  /* background-image: url('./img/gridcell.png'); */
+  background-image: url("./gridcell.png");
 }
 
 .label-field {
